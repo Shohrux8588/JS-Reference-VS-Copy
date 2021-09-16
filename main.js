@@ -1,5 +1,7 @@
 // Let's say we have an array
 const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+// ------------------------------------- Reference an array ------------------------------------
+let referencePlayers = players;
 
 // Copying an array
 // ------------------------------------- Array.prototype.slice() ---------------------------------
@@ -25,6 +27,8 @@ const person = {
         facebook: "shakhrukh"
     }
 };
+// ------------------------------------ Reference an object -------------------------------------
+let referencePerson = person;
 
 // ------------------------------------ Copy of object ------------------------------------------
 // ------------------------------------ Shallow copy --------------------------------------------
